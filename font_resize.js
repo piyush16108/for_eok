@@ -13,6 +13,7 @@ $(document).ready(function(){
 	
 	$("#decrease").click(function(){
 		
+		alert("You wanna decrease");
 		curr_font_in_pixels = $(".alltext").css("font-size");
 		curr_font = parseInt(curr_font_in_pixels);
 		
