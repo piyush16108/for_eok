@@ -6,20 +6,25 @@
 	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 	<style>
 		.fixedHeader {
-		overflow: hidden;
-		background-color: #333;
-		color: white;
-		position: fixed;
-		bottom: 0;
-		width:100%;
-   	}
+			overflow: hidden;
+			background-color: #333;
+			color: white;
+			position: fixed;
+			bottom: 0;
+			width:100%;
+   		}
+		
+		.font_size {
+			border-radius: 12px;
+			font-weight: bold;
+		}
 	</style>
 </head>
 <body class='mb-5'>
 
 <div class="fixedHeader text-center">
 	<!--<p style="align:center; text-align:center;">-->
-	<span id="increase"><button type="button"> + </button></span> | <span id="decrease"><button type="button"> - </button></span>
+	<span id="increase"><button class="font_size" type="button">  +  </button></span>   |   <span id="decrease"><button class="font_size" type="button">  -  </button></span>
 	<!--</p>-->
 </div>
 
