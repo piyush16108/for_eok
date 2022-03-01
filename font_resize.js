@@ -5,8 +5,8 @@ $(document).ready(function(){
 	$("#increase").click(function(){
 		var curr_font_in_pixels = $(".alltext").css("font-size");
 		var curr_font = parseInt(curr_font_in_pixels);
-		alert(curr_font + 5);
-		$(resize).css("font-size", curr_font + 5);
+		//alert(curr_font + 10);
+		$(resize).css("font-size", curr_font + 10);
 	});
 	
 	$("#decrease").click(function(){
