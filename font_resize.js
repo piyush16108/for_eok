@@ -7,13 +7,13 @@ $(document).ready(function(){
 		
 		curr_font_in_pixels = $(".alltext").css("font-size");
 		curr_font = parseInt(curr_font_in_pixels);
-		//alert(curr_font + 10);
+		alert(curr_font*1.2);
 		$(resize).css("font-size", curr_font*1.2);
 	});
 	
 	$("#decrease").click(function(){
 		
-		//alert("You wanna decrease");
+		alert("You wanna decrease");
 		curr_font_in_pixels = $(".alltext").css("font-size");
 		curr_font = parseInt(curr_font_in_pixels);
 		
